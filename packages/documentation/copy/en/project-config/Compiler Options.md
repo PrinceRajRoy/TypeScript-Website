@@ -29,6 +29,9 @@ tsc index.js --declaration --emitDeclarationOnly
 
 # Emit a single .js file using string string params
 tsc app.ts util.ts --target esnext --outfile index.js
+
+# Emit a single .js file using string string params
+tsc app.ts util.ts --target esnext --outfile index.js
 ```
 
 ## Compiler Options
